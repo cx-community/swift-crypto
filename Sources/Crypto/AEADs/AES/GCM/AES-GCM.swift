@@ -85,7 +85,6 @@ extension AES {
 }
 
 extension AES.GCM {
-    @available(iOS 13.0, macOS 10.15, watchOS 6.0, tvOS 13.0, macCatalyst 13.0, *)
     public struct SealedBox: AEADSealedBox {
         private let combinedRepresentation: Data
         private let nonceByteCount: Int

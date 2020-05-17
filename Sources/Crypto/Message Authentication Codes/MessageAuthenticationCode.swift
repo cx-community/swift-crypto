@@ -17,7 +17,6 @@
 import Foundation
 
 /// A protocol defining requirements for Message Authentication Codes
-@available(iOS 13.0, macOS 10.15, watchOS 6.0, tvOS 13.0, macCatalyst 13.0, *)
 public protocol MessageAuthenticationCode: Hashable, ContiguousBytes, CustomStringConvertible, Sequence where Element == UInt8 {
     var byteCount: Int { get }
 }

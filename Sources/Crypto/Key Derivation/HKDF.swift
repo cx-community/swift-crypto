@@ -16,7 +16,6 @@
 #else
 import Foundation
 
-@available(iOS 13.0, macOS 10.15, watchOS 6.0, tvOS 13.0, macCatalyst 13.0, *)
 struct HKDF<H: HashFunction> {
     /// Computes an HKDF using the parameterized Hash Function.
     ///

@@ -17,7 +17,6 @@
 import Foundation
 
 /// A protocol defining requirements for digests
-@available(iOS 13.0, macOS 10.15, watchOS 6.0, tvOS 13.0, macCatalyst 13.0, *)
 public protocol Digest: Hashable, ContiguousBytes, CustomStringConvertible, Sequence where Element == UInt8 {
     static var byteCount: Int { get }
 }
